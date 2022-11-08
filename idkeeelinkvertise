@@ -6,7 +6,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 }) 
  
-_G.Key = "TYSMFor250Members!" 
+_G.Key = "Catboy123" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://pastebin.com/raw/EsVRJaKs"))() 
