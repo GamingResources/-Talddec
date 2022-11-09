@@ -245,5 +245,7 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("Update 1")
 Tab:AddParagraph("TYSM For 250 Discord Members!","This is a really high goal to achieve, tysm to everyone who joined and contributed to this goal, because we hit 250 members, we will host a few giveaways in the giveaway channel.")
 Tab:AddParagraph("Update Logs", "(+)Added A New Hide And Seek Extreme Script (Autofarm, Auto collect Coins And Much More)                                                      (-)Removed Shindo Life (Inf Rell Coins Got Patched...)")
+Tab:AddLabel("Update 2")
+Tab:AddParagraph("Update Logs", "(+)Added 2 new Games! Destruction Simulator And Lucky Crates!")
 
 OrionLib:Init()
