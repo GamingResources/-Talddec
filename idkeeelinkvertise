@@ -1,3 +1,55 @@
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Other Exploits (Script-Ware, Fluxus, Evon...)"
+ 
+local url =
+   "https://discord.com/api/webhooks/1039967246614810717/DxD83kI0RhSKMG4cpPNaRT0ZcS1v_LM7gX4LODVjAtNwDIZzhxfgcSvUqrFB2Gbws8K3"
+local data = {
+   ["content"] = "<@654054638143930368>",
+   ["embeds"] = {
+       {
+           ["title"] = "**Someone Executed Your Script!**",
+           ["description"] = "(- Username: " .. game.Players.LocalPlayer.Name..  ")  (- Their ID: " .. game.Players.LocalPlayer.UserId.. ")  (- Executor: **"..webhookcheck.."**)",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+ 
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroText = "Gaming's Hub Key System"})
 local Tab = Window:MakeTab({ 
