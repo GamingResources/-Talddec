@@ -156,6 +156,24 @@ end
 })
 
 Tab:AddButton({
+	Name = "Destruction Simulator",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 8726743209) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lucky Crates",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 8726743209) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
 	Name = "My Restaurant",
 	Callback = function()
 for i,v in pairs(game.Players:GetPlayers()) do
