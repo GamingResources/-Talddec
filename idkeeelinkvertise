@@ -61,7 +61,7 @@ local Tab = Window:MakeTab({
 _G.Key = "ILikeCats!" 
 _G.KeyInput = "string"
 function MakeScriptHub()
-loadstring(game:HttpGet("https://pastebin.com/raw/EsVRJaKs"))() 
+loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
 end
  
 function CorrectKeyNotification() 
