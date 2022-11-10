@@ -1,3 +1,15 @@
+--key
+
+_G.Key = "cATsAReawEsOMe-meow-meow-uwu" 
+_G.KeyInput = "string"
+function MakeScriptHub()
+loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
+end
+
+
+
+--webhook
+
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
    secure_load and "Sentinel" or
@@ -42,11 +54,55 @@ request(abcdef)
 
 
 
+if game:GetService("UserInputService").TouchEnabled and game:GetService("UserInputService").KeyboardEnabled == false then
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+_G.Key = "cATsAReawEsOMe-meow-meow-uwu" 
+_G.KeyInput = "string"
+function MakeScriptHub()
+loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
+end
+
+
+local win = BlekLib:Create({
+    Name = "Key System",
+    StartupSound = {
+        Toggle = true,
+        SoundID = "rbxassetid://6958727243", -- Win 11 Startup Sound
+        TimePosition = 1
+    }
+})
+
+local maintab = win:Tab('Key                                                                                              ')
+
+
+maintab:Textbox('Imput Key', function(value)
+            _G.KeyInput = value 
+end)
+
+maintab:Button('Check Key', function()
+              if _G.KeyInput == _G.Key then
+            MakeScriptHub() 
+            CorrectKeyNotification()
+            task.wait(2)
+            win:Exit()
+            else
+                IncorrectKeyNotification()
+            end
+end)
+
+maintab:Button('Join Discord (For Key, Copy Discord Invite To Clipboard)', function()
+setclipboard("https://discord.gg/6eEb9EQ2mj")
+    toclipboard("https://discord.gg/6eEb9EQ2mj")
+end)
+
+maintab:Button('Destroy GUI', function()
+    win:Exit()
+end)
 
 
 
 
-
+else
 
 
 
@@ -58,12 +114,7 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998", 
     PremiumOnly = false
 }) 
- 
-_G.Key = "cATsAReawEsOMe-meow-meow-uwu" 
-_G.KeyInput = "string"
-function MakeScriptHub()
-loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
-end
+
  
 function CorrectKeyNotification() 
 OrionLib:MakeNotification({ 
@@ -250,3 +301,4 @@ Tab:AddLabel("Update 2")
 Tab:AddParagraph("Update Logs", "(+)Added 2 new Games! Destruction Simulator And Lucky Crates!")
 
 OrionLib:Init()
+end
