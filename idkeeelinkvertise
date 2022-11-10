@@ -77,7 +77,7 @@ end)
 
 maintab:Button('Check Key', function()
               if _G.KeyInput == _G.Key then
-            MakeScriptHub() 
+            loadstring(game:HttpGet("https://pastebin.com/raw/Hxz7x8qF"))()
             CorrectKeyNotification()
             task.wait(2)
             win:Exit()
