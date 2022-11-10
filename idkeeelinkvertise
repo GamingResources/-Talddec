@@ -11,7 +11,7 @@ local data = {
    ["content"] = "<@654054638143930368>",
    ["embeds"] = {
        {
-           ["title"] = "**Someone Sexecuted The Key System!**",
+           ["title"] = "**Someone Executed The Key System!**",
            ["description"] = "(- Username: " .. game.Players.LocalPlayer.Name..  ")  (- Their ID: " .. game.Players.LocalPlayer.UserId.. ")  (- Executor: **"..webhookcheck.."**)",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
