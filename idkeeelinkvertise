@@ -56,11 +56,7 @@ request(abcdef)
 
 if game:GetService("UserInputService").TouchEnabled and game:GetService("UserInputService").KeyboardEnabled == false then
 local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
-_G.Key = "cATsAReawEsOMe-meow-meow-uwu" 
-_G.KeyInput = "string"
-function MakeScriptHub()
-loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
-end
+
 
 
 local win = BlekLib:Create({
