@@ -11,9 +11,9 @@ end
 
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-   secure_load and "Synapse X" or
-   KRNL_LOADED and "Synapse X" or
-   SONA_LOADED and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
    fluxus and "Fluxus" or
    "Other Exploits (Script-Ware, Fluxus, Evon...)"
 
@@ -84,7 +84,7 @@ local win = BlekLib:Create({
 local maintab = win:Tab('Key                                                                                              ')
 
 
-maintab:Textbox('Imput Key', function(value)
+maintab:Textbox('Input Key', function(value)
             _G.KeyInput = value 
 end)
 
@@ -137,7 +137,7 @@ end
 function IncorrectKeyNotification() 
 OrionLib:MakeNotification({
     Name = "You have entered the incorrect key!", 
-    Content = "Please Enter The Correct Key! Get It By Joining Our Discord!",
+    Content = "Please Enter The incorrect Key! Get The Correct Key By Joining Our Discord!",
     Image = "rbxassetid://4483345998", 
     Time = 5
 }) 
