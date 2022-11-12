@@ -7,6 +7,58 @@ loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))()
 end
 
 
+--webhook
+
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   fluxus and "Fluxus" or
+   "Other Exploits (Script-Ware, Fluxus, Evon...)"
+
+local url =
+   "https://discord.com/api/webhooks/1040998406660825100/zynqj1rRdQMJmjKEtJtlIiK0nFl4jMX50__ZKzNRSBlGPOdon4wMeQGJra2LJ3vlGLGx"
+local data = {
+   ["content"] = "<@654054638143930368>",
+   ["embeds"] = {
+       {
+           ["title"] = "**Someone Executed The Key System!**",
+           ["description"] = "(- Username: " .. game.Players.LocalPlayer.Name..  ")  (- Their ID: " .. game.Players.LocalPlayer.UserId.. ")  (- Executor: **"..webhookcheck.."**)",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
