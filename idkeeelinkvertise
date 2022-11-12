@@ -1,6 +1,6 @@
 --key
 
-_G.Key = "JustTheTwoOfUs" 
+_G.Key = "guns" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
