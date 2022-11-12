@@ -1,6 +1,6 @@
 --key
 
-_G.Key = "guns" 
+_G.Key = "BirchWoodSucks" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
@@ -11,9 +11,9 @@ end
 
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-   secure_load and "Sentinel" or
-   KRNL_LOADED and "Krnl" or
-   SONA_LOADED and "Sona" or
+   secure_load and "Synapse X" or
+   KRNL_LOADED and "Synapse X" or
+   SONA_LOADED and "Synapse X" or
    fluxus and "Fluxus" or
    "Other Exploits (Script-Ware, Fluxus, Evon...)"
 
