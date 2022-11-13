@@ -3,7 +3,7 @@
 _G.Key = "CuterCat" 
 _G.KeyInput = "string"
 function MakeScriptHub()
-loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingResources/yes/main/eenicetrypc"))() 
 end
 
 
@@ -90,7 +90,7 @@ end)
 
 maintab:Button('Check Key', function()
               if _G.KeyInput == _G.Key then
-            loadstring(game:HttpGet("https://pastebin.com/raw/Hxz7x8qF"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingResources/s/main/aanicetryandroid"))()
             CorrectKeyNotification()
             task.wait(2)
             win:Exit()
