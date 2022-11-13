@@ -146,7 +146,7 @@ end
 Tab:AddTextbox({
     Name = "Key System", 
     Default = "",
-    TextDisappear = true, 
+    TextDisappear = false, 
     Callback = function(Value)
         _G.KeyInput = Value 
     end      
