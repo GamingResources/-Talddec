@@ -345,7 +345,7 @@ Tab:AddParagraph("Update Logs", "(+)Added A New Hide And Seek Extreme Script (Au
 Tab:AddLabel("Update 2")
 Tab:AddParagraph("Update Logs", "(+)Added 2 new Games! Destruction Simulator And Lucky Crates!")
 Tab:AddLabel("Update 3")
-Tab:AddParagraph("Update Logs", "(+)Added 4 new Games! Doors, Lucky Blocks Battlegrounds, Rainbow Friends And Mega Fun Obby! Fixed Break In Story GUI Not Showing Up. Fixed The Key Dissapearing When Pressing Enter + More!")
+Tab:AddParagraph("Update Logs", "(+)ADDED ANDROID SUPPORT TO ALL GAMES!!! Added 4 new Games! Doors, Lucky Blocks Battlegrounds, Rainbow Friends And Mega Fun Obby! Fixed Break In Story GUI Not Showing Up. Fixed The Key Dissapearing When Pressing Enter + More!")
 
 OrionLib:Init()
 end
