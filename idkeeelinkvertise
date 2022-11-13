@@ -1,6 +1,6 @@
 --key
 
-_G.Key = "CuteCat" 
+_G.Key = "CuterCat" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://pastebin.com/raw/fppSTsNh"))() 
