@@ -1,6 +1,6 @@
 --key
 
-_G.Key = "$cz1ZSRA1yeH0WYyUsxQZ3%&y@PNfr%1#LVQSlgMs3W4r99I" 
+_G.Key = "X0tdmFYEaIBVv$6lY%huC5JF1L**!lo@e2AaD3$&p^T!&7rlDT" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingResources/yes/main/eenicetrypc"))() 
