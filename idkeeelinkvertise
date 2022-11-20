@@ -1,6 +1,6 @@
 --key
 
-_G.Key = "123abc" 
+_G.Key = "toes" 
 _G.KeyInput = "string"
 function MakeScriptHub()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingResources/yes/main/eenicetrypc"))() 
