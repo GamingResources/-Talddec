@@ -317,6 +317,60 @@ end
   	end    
 })
 
+Tab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Timber",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Da Hood",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Build A Boat For Treasure",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sonic Speed Simulator",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Updates",
 	Icon = "rbxassetid://4483345998",
@@ -332,6 +386,8 @@ Tab:AddLabel("Update 3")
 Tab:AddParagraph("Update Logs", "(+)ADDED ANDROID SUPPORT TO ALL GAMES!!! Added 4 new Games! Doors, Lucky Blocks Battlegrounds, Rainbow Friends And Mega Fun Obby! Fixed Break In Story GUI Not Showing Up. Fixed The Key Dissapearing When Pressing Enter + More!")
 Tab:AddLabel("Update 4")
 Tab:AddParagraph("Update Logs", "(+)Added 3 new Games! Farm Factory Tycoon, Zombie Attack And Survive The Night! Also Fixed The Bug Where The Script Wont Load, Sry For The Incovenience! Also TYSM For 1.2k Members!")
+Tab:AddLabel("Update 5")
+Tab:AddParagraph("Update Logs", "(+)Added 6 new Games! Blox Fruits, Da Hood, Murder Mystery 2, Timber, Sonic Speed Simulator And Build A Boat For Treasure! Added Toggle To Super Bomb Survival Autofarm, Aswell As A Built In Anti Afk! Fixed More Bugs And Much More! Also TYSM For 1.7k Members! Road To 2k!")
 
 OrionLib:Init()
 end
