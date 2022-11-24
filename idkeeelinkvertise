@@ -522,6 +522,17 @@ end
   	end    
 })
 
+Tab:AddButton({
+	Name = "Be Crushed By A Speeding Wall",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+
+
 local Tab = Window:MakeTab({
 	Name = "Updates",
 	Icon = "rbxassetid://4483345998",
