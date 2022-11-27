@@ -531,6 +531,24 @@ end
   	end    
 })
 
+Tab:AddButton({
+	Name = "Making Memes In Your Basement At 3 AM",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Restaurant Tycoon 2",
+	Callback = function()
+for i,v in pairs(game.Players:GetPlayers()) do
+   game:GetService("TeleportService"):Teleport(v, 3527629287) -- Game ID
+end
+  	end    
+})
+
 
 
 local Tab = Window:MakeTab({
@@ -550,6 +568,8 @@ Tab:AddLabel("Update 4")
 Tab:AddParagraph("Update Logs", "(+)Added 3 new Games! Farm Factory Tycoon, Zombie Attack And Survive The Night! Also Fixed The Bug Where The Script Wont Load, Sry For The Incovenience! Also TYSM For 1.2k Members!")
 Tab:AddLabel("Update 5")
 Tab:AddParagraph("Update Logs", "(+)Added 6 new Games! Blox Fruits, Da Hood, Murder Mystery 2, Timber, Sonic Speed Simulator And Build A Boat For Treasure! Added Toggle To Super Bomb Survival Autofarm, Aswell As A Built In Anti Afk! Fixed More Bugs And Much More! Also TYSM For 1.7k Members! Road To 2k!")
+Tab:AddLabel("Update 6")
+Tab:AddParagraph("Update Logs", "(+)Added 3 new Games! Be Crushed By A Speeding Wall, Making Memes In Your Basement At 3 AM Tycoon and Restaurant Tycoon 2! Also TYSM For 2.7k Members!")
 
 OrionLib:Init()
 end
