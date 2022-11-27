@@ -570,6 +570,8 @@ Tab:AddLabel("Update 5")
 Tab:AddParagraph("Update Logs", "(+)Added 6 new Games! Blox Fruits, Da Hood, Murder Mystery 2, Timber, Sonic Speed Simulator And Build A Boat For Treasure! Added Toggle To Super Bomb Survival Autofarm, Aswell As A Built In Anti Afk! Fixed More Bugs And Much More! Also TYSM For 1.7k Members! Road To 2k!")
 Tab:AddLabel("Update 6")
 Tab:AddParagraph("Update Logs", "(+)Added 3 new Games! Be Crushed By A Speeding Wall, Making Memes In Your Basement At 3 AM Tycoon and Restaurant Tycoon 2! Also TYSM For 2.7k Members!")
+Tab:AddLabel("Update 7")
+Tab:AddParagraph("Update Logs", "(+)Added 1 new Game! Field Trip Z!")
 
 OrionLib:Init()
 end
